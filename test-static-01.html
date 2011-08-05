@@ -43,6 +43,8 @@
                 jQuery(document).bind('keydown', 'f10',function (evt){jQuery('#_f10').addClass('dirty'); return false; });
                 jQuery(document).bind('keydown', 'f11',function (evt){jQuery('#_f11').addClass('dirty'); return false; });
                 jQuery(document).bind('keydown', 'f12',function (evt){jQuery('#_f12').addClass('dirty'); return false; });
+				jQuery(document).bind('keydown', '[',function (evt){console.log(jQuery('#_left_bracket').addClass('dirty')); return false; });
+				jQuery(document).bind('keydown', ']',function (evt){jQuery('#_right_bracket').addClass('dirty'); return false; });
                 jQuery(document).bind('keydown', '1',function (evt){jQuery('#_1').addClass('dirty'); return false; });
                 jQuery(document).bind('keydown', '2',function (evt){jQuery('#_2').addClass('dirty'); return false; });
                 jQuery(document).bind('keydown', '3',function (evt){jQuery('#_3').addClass('dirty'); return false; });
@@ -272,7 +274,7 @@
 end</div><div id="_pageup" class="eventNotifier">pageup</div><div id="_pagedown" class="eventNotifier">pagedown</div><div id="_left" class="eventNotifier">left</div><div id="_up" class="eventNotifier">up</div><div id="_right" 
 class="eventNotifier">right</div><div id="_down" class="eventNotifier">down</div><div id="_f1" class="eventNotifier">f1</div><div id="_f2" class="eventNotifier">f2</div><div id="_f3" class="eventNotifier">f3</div><div id="_f4" 
 class="eventNotifier">f4</div><div id="_f5" class="eventNotifier">f5</div><div id="_f6" class="eventNotifier">f6</div><div id="_f7" class="eventNotifier">f7</div><div id="_f8" class="eventNotifier">f8</div><div id="_f9" class=
-"eventNotifier">f9</div><div id="_f10" class="eventNotifier">f10</div><div id="_f11" class="eventNotifier">f11</div><div id="_f12" class="eventNotifier">f12</div><div style="clear: both;"/>
+"eventNotifier">f9</div><div id="_f10" class="eventNotifier">f10</div><div id="_f11" class="eventNotifier">f11</div><div id="_f12" class="eventNotifier">f12</div><div id="_left_bracket" class="eventNotifier">[</div><div id="_right_bracket" class="eventNotifier">]</div><div style="clear: both;"/>
 
 <h2>0-9 Digits</h2>
 <div id="_1" class="eventNotifier">1</div>
